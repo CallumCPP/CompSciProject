@@ -1,0 +1,206 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "external/raylib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.raylib-Debug-dd4865513b40bca60f57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/raylib"
+				},
+				{
+					"build" : "external/raylib/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.raylib.raylib-Debug-d475ab0796d2fef84f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/raylib/src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "external/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-external.raylib.raylib.external.glfw-Debug-0e912de6d3c7e4320260.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/raylib/src/external/glfw"
+				},
+				{
+					"build" : "external/raylib/raylib/external/glfw/src",
+					"jsonFile" : "directory-external.raylib.raylib.external.glfw.src-Debug-244624c97feae7b51b62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "external/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CompSci-NEA",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MainGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MainGame-Debug-366d8b035d5f43783224.json",
+					"name" : "MainGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TCP-Client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCP-Client-Debug-5be8a503feb724a22bf5.json",
+					"name" : "TCP-Client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TCP-Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCP-Server-Debug-ce5a8ecc3df2a0a9147f.json",
+					"name" : "TCP-Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@0caa76eb0594e07c8f96",
+					"jsonFile" : "target-glfw-Debug-8ff586cfc0f3e4350923.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@e0062cae9a75ca0a10b0",
+					"jsonFile" : "target-raylib-Debug-8f5cfaac5956d50ca8db.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sqlite3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sqlite3-Debug-5c4acaf0c55352660cc4.json",
+					"name" : "sqlite3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/callum/OneDrive/Dr Carter does computer science/CompSci-NEA/Code/build",
+		"source" : "/home/callum/OneDrive/Dr Carter does computer science/CompSci-NEA/Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
